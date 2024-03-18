@@ -1,5 +1,7 @@
+@media (min-width: 576px) {
 .resume {
   width: 100%;
+  overflow: auto;
 }
 .header-name{
   width: 100%;
@@ -107,9 +109,6 @@
   margin-left: 25px;
   
 }
-
-
-
 .year-exper2567{
   display: flex;
   grid-template-columns: 55px 1fr;
@@ -264,12 +263,14 @@
   line-height: 2px;
   width: 1fr;
 }
+}
 
-/* Media query สำหรับหน้าจอที่มีขนาดน้อยกว่าหรือเท่ากับ 576px */
+/*สำหรับหน้าจอที่มีขนาดน้อยกว่าหรือเท่ากับ 576px */
 @media (max-width: 576px) {
   .resume {
     width: 100%;
     background-color: black;
+    overflow: auto;
   }
 
   .header-name{
